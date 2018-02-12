@@ -22,7 +22,6 @@ class Navbar extends Component {
             <a className="navbar-brand" href='/Blog'>Blog</a>
             <a className="navbar-brand" href='/Contact'>Contact</a>
           </nav>
-
           <div className='content-container'>
             <Route exact path='/' component={About} />
             <Route path='/Projects' component={Projects} />
